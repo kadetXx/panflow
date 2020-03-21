@@ -1,0 +1,178 @@
+/***********MAIN STYLING***********/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: #727388;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/***********TOP SECTION***********/
+
+#title {
+    background-color: rgb(248, 240, 255);
+    padding: 3% 10% 12%;
+}
+
+.navbar-brand {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+.top-col {
+    margin: auto;
+}
+
+.img-div {
+    text-align: center;
+}
+
+.main-img {
+    width: 90%;
+}
+
+button {
+    margin: 2.5rem 0.6rem 1.5rem 0;
+}
+
+/***********NAV BAR***********/
+
+.navigation {
+    margin: 0 0 4.8rem;
+    position: relative;
+}
+
+.navbar-nav {
+  text-align: center;
+  margin: auto;
+}
+
+.navi-button {
+  position: relative;
+  left: 150px;
+}
+
+.sign-in-up {
+  border-radius: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+#navbarTogglerDemo01 {
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar-light .navbar-brand {
+    color: #4b4c5f;
+    font-size: 1.5rem;
+}
+
+.fas {
+    color:#000; 
+    font-size:28px;
+}
+
+/***********FEATURES SECTION***********/
+
+#features p {
+  color: #8f8f8f;
+}
+
+.feature-sect {
+  text-align: center;
+  padding: 3% 10%;
+}
+
+.feature-box {
+  padding: 7% 3% 7%;
+}
+
+.feature-icon {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+/***********CHARTS SECTION***********/
+
+#charts {
+  background-color: rgb(248, 240, 255);
+  padding: 2% 10% 7%;
+}
+
+.charts-head {
+  text-align: center;
+  padding: 3%;
+}
+
+.chart-img {
+  width: 80%;
+}
+
+.counter-img {
+  width: 60%;
+  position: relative;
+  left: 20%;
+  top: 10%;
+}
+
+/***********NEWSLETTER***********/
+
+#newsletter {
+  padding: 10% 10%;
+  text-align: center;
+}
+
+.newsletter-text {
+  line-height: 2;
+}
+
+.newsletter-text p {
+  color: #8f8f8f;
+}
+
+.email-field {
+  border: 1px solid;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+
+/***********FOOTER***********/
+
+#footer {
+  background-color: rgb(248, 240, 255);
+  padding: 3% 10%;
+}
+
+.social-icons {
+  text-align: center;
+}
+
+.social-icons a {
+  color: #727388;
+  padding: 2%;
+}
+
+.social-icons a:hover {
+  color: #181819;
+}
+
+.copyright-text {
+  text-align: center;
+  margin: 2% 0 0;
+}
