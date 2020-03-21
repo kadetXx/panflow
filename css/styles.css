@@ -11,6 +11,7 @@ h1 {
 }
 
 h2 {
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -33,6 +34,7 @@ h3 {
 
 .top-col {
     margin: auto;
+    padding-bottom: 3%;
 }
 
 .img-div {
@@ -43,8 +45,12 @@ h3 {
     width: 90%;
 }
 
-button {
+#download-btn-div {
     margin: 2.5rem 0.6rem 1.5rem 0;
+}
+
+button {
+  margin: 0 5px 5px;
 }
 
 /***********NAV BAR***********/
@@ -122,6 +128,7 @@ button {
 
 .chart-img {
   width: 80%;
+  padding: 3%;
 }
 
 .counter-img {
@@ -138,18 +145,19 @@ button {
   text-align: center;
 }
 
-.newsletter-text {
-  line-height: 2;
-}
-
 .newsletter-text p {
   color: #8f8f8f;
 }
 
 .email-field {
   border: 1px solid;
-  padding: 5px 10px;
   border-radius: 50px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+}
+
+.sign-in-up {
+  margin-bottom: 5px;
 }
 
 /***********FOOTER***********/
@@ -175,4 +183,19 @@ button {
 .copyright-text {
   text-align: center;
   margin: 2% 0 0;
+}
+
+@media (max-width: 992px) {
+  #navbarTogglerDemo01 {
+    position: relative;
+    top: 50%;
+    left: 0%;
+    transform: none;
+  }
+
+  .navi-button {
+    position: static;
+    text-align: center;
+  }
+  
 }
