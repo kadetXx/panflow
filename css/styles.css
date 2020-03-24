@@ -232,6 +232,15 @@ button:focus {
     font-size: 1rem;
   }
 
+  .img-div {
+    margin-top: 5%;
+  }
+
+  .email-field {
+    width: 60%;
+    margin-bottom: 5px;
+  }
+
   .social-icons {
     font-size: 12px;
   }
