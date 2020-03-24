@@ -219,8 +219,9 @@ button:focus {
 
   #title {
     background-color: rgb(248, 240, 255);
-    padding: 3% 3% 12%;
+    padding: 3% 3% 15%;
   }
+
   .top-col {
     margin: auto;
     padding-bottom: 3%;
